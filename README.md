@@ -203,8 +203,6 @@ Each tracked object receives:
 | FPS (standard) | 28.2 | | |
 | FPS (SAHI) | 1.6 | | |
 
-*(Fill in your actual numbers from Cell 10 and Cell 12 outputs before submitting)*
-
 ### Visualisations Produced
 
 | File | Description |
