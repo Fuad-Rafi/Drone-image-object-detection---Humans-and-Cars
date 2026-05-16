@@ -2,7 +2,6 @@
 
 A full computer vision pipeline for detecting humans and cars in drone/aerial imagery, with object counting, tracking, and evaluation built on the VisDrone2019 dataset using YOLOv8m fine-tuned at 960px resolution with SAHI sliced inference.
 
----
 
 ## Table of Contents
 1. [Project Structure](#project-structure)
