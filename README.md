@@ -298,8 +298,3 @@ Install:
 ```bash
 pip install ultralytics>=8.0.0 sahi supervision lap
 ```
-
----
-
-*Assessment submitted for Antlings Internship Program — Phase 2 AI/ML Technical Assessment*  
-*Dataset: VisDrone2019-DET | Model: YOLOv8m | Framework: Ultralytics*
