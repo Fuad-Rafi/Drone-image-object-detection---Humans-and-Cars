@@ -3,21 +3,6 @@
 A full computer vision pipeline for detecting humans and cars in drone/aerial imagery, with object counting, tracking, and evaluation built on the VisDrone2019 dataset using YOLOv8m fine-tuned at 960px resolution with SAHI sliced inference.
 
 
-## Table of Contents
-1. [Project Structure](#project-structure)
-2. [Task 01 — Dataset Understanding & Preprocessing](#task-01--dataset-understanding--preprocessing)
-3. [Task 02 — Model Training](#task-02--model-training)
-4. [Task 03 — Human & Car Detection with Counting](#task-03--human--car-detection-with-counting)
-5. [Task 04 — Object Tracking (Bonus)](#task-04--object-tracking-bonus)
-6. [Task 05 — Evaluation & Visualization](#task-05--evaluation--visualization)
-7. [Results Summary](#results-summary)
-8. [Strengths](#strengths)
-9. [Limitations](#limitations)
-10. [Challenges Faced](#challenges-faced)
-11. [How to Run](#how-to-run)
-12. [Dependencies](#dependencies)
-
----
 
 ## Project Structure
 
@@ -42,7 +27,6 @@ A full computer vision pipeline for detecting humans and cars in drone/aerial im
 
 ---
 
-## Task 01 — Dataset Understanding & Preprocessing
 
 ### Dataset Structure
 
@@ -110,7 +94,6 @@ We collapse the 10 classes into **2 target classes**: `human` (pedestrian + peop
 
 ---
 
-## Task 02 — Model Training
 
 ### Model
 
@@ -150,7 +133,6 @@ Training curves (loss convergence and mAP progression) are visualised in `output
 
 ---
 
-## Task 03 — Human & Car Detection with Counting
 
 ### Detection Pipeline
 
@@ -185,8 +167,6 @@ The count is displayed as a semi-transparent HUD overlay on each annotated image
 
 ---
 
-## Task 04 — Object Tracking (Bonus)
-
 **Tracker:** ByteTrack (built-in Ultralytics implementation — no extra installation needed)
 
 ByteTrack was chosen because:
@@ -211,7 +191,6 @@ Each tracked object receives:
 
 ---
 
-## Task 05 — Evaluation & Visualization
 
 ### Metrics (evaluated on full 548-image val set)
 
